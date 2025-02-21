@@ -17,7 +17,7 @@ export const createStripeCheckout = async () => {
   }
 
   const stripe = new Stripe(secret, {
-    apiVersion: "2024-10-28.acacia",
+    apiVersion: "2025-01-27.acacia",
   });
 
   const session = await stripe.checkout.sessions.create({
