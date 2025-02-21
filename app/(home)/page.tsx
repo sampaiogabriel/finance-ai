@@ -23,9 +23,12 @@ const Home = async ({ searchParams: { month } }: HomeProps) => {
     redirect("/login");
   }
   const monthIsInvalid = !month || !isMatch(month, "MM");
+
   if (monthIsInvalid) {
-    redirect(`?month=${new Date().getMonth() + 1}`);
+    const month = String(new Date().getMonth() + 1).padStart(2, "0");
+    redirect(`?month=${month}`);
   }
+
   const dashboard = await getDashboard(month);
   const userCanAddTransaction = await canUserAddTransaction();
   const user = await clerkClient().users.getUser(userId);
