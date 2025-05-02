@@ -1,69 +1,69 @@
-# FinanceAI
+# 💰 FinanceAI
 
-Este repositório contém o projeto **FinanceAI**, desenvolvido durante a Full Stack Week. O objetivo do projeto é fornecer uma plataforma financeira que utiliza Inteligência Artificial para auxiliar os usuários na gestão de suas finanças pessoais.
+This repository contains **FinanceAI**, a project developed during the Full Stack Week. The goal is to provide a financial platform powered by Artificial Intelligence to help users manage their personal finances.
 
-## Tecnologias Utilizadas
+## 🚀 Tech Stack
 
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **Next.js 13**: Framework React que oferece renderização do lado do servidor e geração de sites estáticos.
-- **Next Auth**: Biblioteca para autenticação de usuários com suporte a OAuth.
-- **PostgreSQL**: Sistema de gerenciamento de banco de dados relacional.
-- **Prisma**: ORM para Node.js e TypeScript que facilita o acesso ao banco de dados.
-- **shadcn/ui**: Biblioteca de componentes de interface do usuário reutilizáveis e estilizados.
-- **Tailwind CSS**: Framework CSS utilitário para estilização rápida e consistente.
-- **Stripe API**: Plataforma de pagamentos online para processar transações de forma segura.
+- **React** – JavaScript library for building user interfaces  
+- **Next.js 13** – React framework offering server-side rendering and static site generation  
+- **NextAuth.js** – Authentication library with OAuth support  
+- **PostgreSQL** – Relational database management system  
+- **Prisma** – ORM for Node.js and TypeScript for database access  
+- **shadcn/ui** – Reusable and styled UI component library  
+- **Tailwind CSS** – Utility-first CSS framework for fast and consistent styling  
+- **Stripe API** – Online payment platform for secure transaction processing  
 
-## Funcionalidades
+## 📌 Features
 
-- **Dashboard Financeira**: Visualize e gerencie suas finanças em um painel intuitivo.
-- **Análise de Despesas**: Obtenha insights sobre seus gastos e identifique áreas de economia.
-- **Previsão Financeira com IA**: Receba previsões personalizadas baseadas em seus hábitos financeiros.
-- **Autenticação Segura**: Proteja suas informações com sistemas de login e registro robustos.
-- **Integração com Pagamentos**: Gerencie transações e pagamentos através da integração com a API do Stripe.
+- **Financial Dashboard** – View and manage your finances with an intuitive dashboard  
+- **Expense Analytics** – Gain insights into your spending habits and identify saving opportunities  
+- **AI-Powered Financial Forecasting** – Receive personalized predictions based on your financial behavior  
+- **Secure Authentication** – Robust login and registration system to protect your information  
+- **Payments Integration** – Manage transactions with integrated Stripe API support  
 
-## Instalação e Uso
+## 🛠️ Getting Started
 
-1. **Clone o repositório**:
+1. **Clone the repository**:
 
    ```bash
    git clone https://github.com/sampaiogabriel/finance.ai.git
    ```
 
-2. **Instale as dependências**:
+2. **Install dependencies**:
 
    ```bash
    cd fullstackweek-financeai
    npm install
    ```
 
-3. **Configure as variáveis de ambiente**:
+3. **Set environment variables**:
 
-   Crie um arquivo `.env` na raiz do projeto e defina as seguintes variáveis:
+   Create a `.env` file in the project root and add the following variables:
 
    ```env
-   DATABASE_URL=suabase_de_dados_url
-   NEXTAUTH_URL=sua_url_de_autenticacao
-   STRIPE_API_KEY=sua_chave_api_stripe
+   DATABASE_URL=your_database_url
+   NEXTAUTH_URL=your_auth_url
+   STRIPE_API_KEY=your_stripe_api_key
    ```
 
-4. **Execute as migrações do banco de dados**:
+4. **Run database migrations**:
 
    ```bash
    npx prisma migrate dev
    ```
 
-5. **Inicie o servidor de desenvolvimento**:
+5. **Start the development server**:
 
    ```bash
    npm run dev
    ```
 
-   O aplicativo estará disponível em `http://localhost:3000`.
+   The app will be available at `http://localhost:3000`.
 
-## Contribuição
+## 🤝 Contributing
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests. Antes de contribuir, por favor, leia o arquivo `CONTRIBUTING.md` para entender as diretrizes do projeto.
+Contributions are welcome! Feel free to open issues and pull requests. Before contributing, please read the `CONTRIBUTING.md` file to understand the project's guidelines.
 
-## Licença
+## 📝 License
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para mais informações.
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
